@@ -1,8 +1,6 @@
 import React, { createContext, Component } from 'react';
 import axios from 'axios';
-
 export const DataContext = createContext();
-
 class DataContextProvider extends Component{ 
     constructor(){
        super();
@@ -15,7 +13,6 @@ class DataContextProvider extends Component{
    updateData = async () =>{
         axios.get('https://reqres.in/api/users')
              .then((res)=>{
-                
                  this.setState({
                      userList : res.data.data
                  })
@@ -32,6 +29,7 @@ class DataContextProvider extends Component{
         console.log('from context user added',this.state.userList);
     }    
         render(){
+            //this.updateData();
             console.log('from context',this.state.userList)
             return (
              <DataContext.Provider value = {{...this.state, adduser: this.adduser }}>
