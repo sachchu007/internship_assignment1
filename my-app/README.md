@@ -30,6 +30,6 @@ Approch Used
                                   0) Context of List of user data
                                2) app.js (holds the root point of the application)
              
-             4) Implemented the search function on all the
+             4) Implemented the search function on all the possible fields of the list
                                
      
