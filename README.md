@@ -24,7 +24,7 @@ Approch Used
                        0) src
                               0) Components
                                   0) Login (contains the login feature)
-                                  1) Views (view page for table, contains all the feature for adding user, editing user and delete users) 
+                                  1) Views (view page for table, contains all the function for adding user, editing user and delete users) 
                                   2) Add user (page for adding new member)
                                1) Context
                                   0) Context of List of user data
